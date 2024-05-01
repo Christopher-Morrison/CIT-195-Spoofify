@@ -1,0 +1,51 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-color: #191414;
+}
+img{
+    width:200px;
+}
+h1,h2,h3, h4{
+    color: #F7FFF7;
+}
+p {
+    color: #F7FFF7;
+}
+th, dt{
+    color: #F7FFF7;
+}
+td, dd {
+    color: #F7FFF7;
+}
+a {
+    color: #1ED760;
+}
+a:hover {
+    color: #D58936;
+}
+.form-group {
+    color: #F7FFF7;
+}
+.btn-primary {
+    color: black;
+    background-color: #1ED760;
+}
